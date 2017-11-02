@@ -36,7 +36,7 @@ public class LunchOrder {
         sod = s.nextInt();
         System.out.println(soda.toString());
         
-        System.out.println("Your order comes to: " + (hamburger.getCost(ham)+salad.getCost(sal)+fries.getCost(fri)+soda.getCost(sod)) );
+        System.out.println("Your order comes to: $" + (hamburger.getCost(ham)+salad.getCost(sal)+fries.getCost(fri)+soda.getCost(sod)) );
         
     }
     
